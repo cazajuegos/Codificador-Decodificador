@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 
     SDL_Event windowEvent;
 
-    imageSurface = SDL_LoadBMP("C:/Users/cazaj/Downloads/Codificador-Decodificador/src/hello_world.bmp");
+    imageSurface = SDL_LoadBMP("C:/Users/cazaj/Downloads/Git-Hub/Codificador-Decodificador/src/hello_world.bmp");
     if (imageSurface == NULL)
     {
         std::cout << "SDL could not load image! SDL Error: " << SDL_GetError() << std::endl;
